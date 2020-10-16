@@ -6,10 +6,45 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
+del {
+
+  background-position: 0 50%;
+  background-size: 0% 0px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
 @font-face {
     font-family: 'FontAwesome';
     src: url('fontawesome/fonts/fontawesome-webfont.woff') format('woff'), url('fontawesome/fonts/fontawesome-webfont.ttf') format('truetype');
   }
+#nav {
+  list-style: none;
+  overflow: hidden;
+  text-align: center;
+
+}
+.noselect
+{
+  user-select:none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;
+}
+ 
+#nav li {
+  width: 210px;
+  background-color: #333;
+  list-style-type: none; /* リストのマーカーを消去 */
+  display: inline-block; /* 横並びに */
+  font-size:25px;
+
+}
+ 
+#nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+ 
+
+}
  .UsingDe ul
  {
   
